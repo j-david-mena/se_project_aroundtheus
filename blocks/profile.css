@@ -10,7 +10,9 @@
     "title button"
     "description description";
   grid-template-columns: minmax(auto, 415px) auto;
-  align-items: end;
+  align-items: baseline;
+  gap: 7px 0;
+  max-width: 415px;
 }
 
 .profile__edit-button {
@@ -51,7 +53,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  max-width: 415px;
+  max-width: 375px;
 }
 
 .profile__description {
@@ -100,6 +102,12 @@
 @media screen and (max-width: 320px) {
   .profile__image {
     margin: auto;
+  }
+
+  .profile__info {
+    max-width: 282px;
+    gap: 14px 10px;
+    padding: 30px 0 36px;
   }
 
   .profile__title {
