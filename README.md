@@ -51,9 +51,13 @@ The design for this project is based on a Figma prototype:
 
 - Add JavaScript functionality for interactive elements (e.g., like buttons).
 - Implement accessibility features such as ARIA roles and keyboard navigation.
-  Optimize further for performance and SEO.
+- Optimize further for performance and SEO.
 
 ## Author
 
 **J. David Mena**
 This project was created as part of the TripleTen web development course.
+
+## link to the project on GitHub Pages
+
+[https://j-david-mena.github.io/se_project_aroundtheus/]
