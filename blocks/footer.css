@@ -2,13 +2,15 @@
   color: #545454;
   font-weight: 400;
   font-size: 18px;
-  padding: 0 0 60px;
+  padding: 0 20px 60px; /* Add horizontal padding to match the .page class */
+  width: 100%; /* Ensure the footer spans the full width */
+  box-sizing: border-box; /* Include padding in the width calculation */
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .footer {
     font-size: 14px;
     font-weight: 400;
-    padding: 0 0 36px;
+    padding: 0 20px 36px; /* Ensure consistent padding in mobile view */
   }
 }

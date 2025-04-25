@@ -57,7 +57,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .cards {
     padding: 36px 0 48px;
   }
