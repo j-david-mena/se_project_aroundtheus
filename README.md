@@ -61,3 +61,7 @@ This project was created as part of the TripleTen web development course.
 ## link to the project on GitHub Pages
 
 [https://j-david-mena.github.io/se_project_aroundtheus/]
+
+## link to YouTube video
+
+[https://youtu.be/b2DsyIXbNTA]
