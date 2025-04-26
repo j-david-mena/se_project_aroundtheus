@@ -123,7 +123,7 @@
 
   .profile__title {
     font-size: 22px;
-    font-weight: 500;
+    max-width: 220px;
   }
 
   .profile__description {
