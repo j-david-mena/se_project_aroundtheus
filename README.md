@@ -41,11 +41,11 @@ The design for this project is based on a Figma prototype:
 
 ### Desktop View (1280px)
 
-![Desktop View](../se_project_aroundtheus/images/demo/1280px_screenshot.png)
+![Desktop View](images/demo/1280px_screenshot.png)
 
 ### Mobile View (320px)
 
-![Mobile View](../se_project_aroundtheus/images/demo/320px.png)
+![Mobile View](images/demo/320px.png)
 
 ## Future Improvements
 
