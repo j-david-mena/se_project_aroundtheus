@@ -59,9 +59,17 @@ The design for this project is based on a Figma prototype:
 
 ![Desktop View](images/demo/1280px_screenshot.png)
 
+### Modal Desktop View (1280px)
+
+![Desktop View](images/demo/1280px_modal.png)
+
 ### Mobile View (320px)
 
 ![Mobile View](images/demo/320px.png)
+
+### Modal Movile view (320px)
+
+![Desktop View](images/demo/320px_modal.png)
 
 ## Future Improvements
 
