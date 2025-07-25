@@ -55,7 +55,7 @@
           type="button"
         ></button>
         <h3 class="modal__heading">Edit Profile</h3>
-        <form class="modal__form">
+        <form class="modal__form" id="profile-edit-form">
           <input
             class="modal__input"
             type="text"
@@ -72,6 +72,34 @@
             id="profile-description-input"
           />
           <button class="modal__button" type="submit">Save</button>
+        </form>
+      </div>
+    </div>
+    <div class="modal" id="card-add-modal">
+      <div class="modal__container">
+        <button
+          class="modal__close"
+          id="card-add-modal-close-button"
+          type="button"
+        ></button>
+        <h3 class="modal__heading">New Place</h3>
+        <form class="modal__form" id="card-add-form">
+          <input
+            class="modal__input"
+            type="text"
+            name="title"
+            placeholder="Title"
+            id="card-title-input"
+            required
+          />
+          <input
+            class="modal__input"
+            type="text"
+            name="link"
+            placeholder="Image link"
+            id="card-image-input"
+          />
+          <button class="modal__button" type="submit">Create</button>
         </form>
       </div>
     </div>
