@@ -28,6 +28,33 @@
   border-radius: 10px;
 }
 
+.modal__container_type_preview {
+  padding: 0;
+  max-width: 75vw;
+  max-height: 75vh;
+  background-color: transparent;
+}
+
+.modal__preview-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin: 0;
+}
+
+.modal__preview-image {
+  width: 100%;
+  max-height: 75vh;
+  object-fit: contain;
+}
+
+.modal__preview-caption {
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  max-width: 75vw;
+}
+
 .modal__close {
   border: none;
   background-color: transparent;
