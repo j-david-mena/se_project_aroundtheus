@@ -11,11 +11,15 @@
   padding: 0 19px;
   /* justify-content: center;
   align-items: center; */
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0.3s, opacity 0.3s ease-in-out;
 }
 
 .modal__opened {
-  display: flex;
+  opacity: 1;
+  visibility: visible;
+  transition: visibility 0s linear 0s, opacity 0.3s ease-in-out;
 }
 
 .modal__container {
@@ -33,6 +37,8 @@
   max-width: 75vw;
   max-height: 75vh;
   background-color: transparent;
+  display: flex;
+  flex-basis: fit-content;
 }
 
 .modal__preview-container {
@@ -40,6 +46,7 @@
   flex-direction: column;
   row-gap: 10px;
   margin: 0;
+  position: relative;
 }
 
 .modal__preview-image {
